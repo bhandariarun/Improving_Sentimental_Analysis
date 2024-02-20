@@ -5,6 +5,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from spellchecker import SpellChecker
 import re
 
+#The code is changed but you don't know
 def pol_scores(word):
     cleaned_text = re.sub(r'(.)\1{2,}', r'\1\1', word)
     sp=SpellChecker()
